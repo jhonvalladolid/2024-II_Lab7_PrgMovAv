@@ -69,6 +69,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="182.5" height="34.5"/>
                                         <color key="backgroundColor" white="0.064387423550000003" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <buttonConfiguration key="configuration" style="plain" title="+"/>
+                                        <connections>
+                                            <action selector="btnSumar:" destination="Ntp-Rx-xB1" eventType="touchUpInside" id="qER-fa-AmX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yc1-wR-ciI">
                                         <rect key="frame" x="190.5" y="0.0" width="182.5" height="34.5"/>
@@ -120,6 +123,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="5fY-Yo-eim"/>
+                    <connections>
+                        <outlet property="txtNumero1" destination="Jeo-U3-quV" id="xiT-86-foF"/>
+                        <outlet property="txtNumero2" destination="aCM-gn-cJZ" id="UmO-bT-HpV"/>
+                        <outlet property="txtRpta" destination="zie-i8-ja6" id="hh9-st-cxB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3vK-fA-sfN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
