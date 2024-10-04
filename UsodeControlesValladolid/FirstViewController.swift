@@ -29,6 +29,50 @@ class FirstViewController: UIViewController {
         }
     }
     
+    @IBAction func btnRestar(_ sender: Any) {
+        if Double(txtNumero1.text!) != nil && Double(txtNumero2.text!) != nil {
+            nro1 = Double(txtNumero1.text!)!
+            nro2 = Double(txtNumero2.text!)!
+            rpta = nro1 - nro2
+            txtRpta.text = String(rpta)
+        } else {
+            mostrarAlerta(titulo: "Error", mensaje: "Debe introducir solo valores numéricos")
+            print("Error al realizar operación")
+        }
+    }
+    
+    @IBAction func btnDividir(_ sender: Any) {
+        if Double(txtNumero1.text!) != nil && Double(txtNumero2.text!) != nil {
+            nro1 = Double(txtNumero1.text!)!
+            nro2 = Double(txtNumero2.text!)!
+            if nro2 != 0 {
+                rpta = nro1 / nro2
+                txtRpta.text = String(rpta)
+            } else {
+                mostrarAlerta(titulo: "Error", mensaje: "No se puede dividir entre cero")
+            }
+        } else {
+            mostrarAlerta(titulo: "Error", mensaje: "Debe introducir solo valores numéricos")
+            print("Error al realizar operación")
+        }
+    }
+    
+    @IBAction func btnMultiplicar(_ sender: Any) {
+        if Double(txtNumero1.text!) != nil && Double(txtNumero2.text!) != nil {
+            nro1 = Double(txtNumero1.text!)!
+            nro2 = Double(txtNumero2.text!)!
+            rpta = nro1 * nro2
+            txtRpta.text = String(rpta)
+        } else {
+            mostrarAlerta(titulo: "Error", mensaje: "Debe introducir solo valores numéricos")
+            print("Error al realizar operación")
+        }
+    }
+    
+    @IBAction func btnLimpiar(_ sender: Any) {
+        Limpiar()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let tap:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ocultarTeclado))

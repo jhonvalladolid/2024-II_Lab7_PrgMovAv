@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB1B185F2CB03E9700217563 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB1B185E2CB03E9700217563 /* logo2.png */; };
 		FBB111B42CAF6D6A006CA144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB111B32CAF6D6A006CA144 /* AppDelegate.swift */; };
 		FBB111B62CAF6D6A006CA144 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB111B52CAF6D6A006CA144 /* SceneDelegate.swift */; };
 		FBB111B82CAF6D6A006CA144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB111B72CAF6D6A006CA144 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB1B185E2CB03E9700217563 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
 		FBB111B02CAF6D6A006CA144 /* UsodeControlesValladolid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsodeControlesValladolid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB111B32CAF6D6A006CA144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB111B52CAF6D6A006CA144 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				FBB111C72CAF6E38006CA144 /* FirstViewController.swift */,
 				FBB111C92CAF6E85006CA144 /* SecondViewController.swift */,
 				FBB111CB2CAF7C4D006CA144 /* logo.png */,
+				FB1B185E2CB03E9700217563 /* logo2.png */,
 			);
 			path = UsodeControlesValladolid;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB111CC2CAF7C4D006CA144 /* logo.png in Resources */,
+				FB1B185F2CB03E9700217563 /* logo2.png in Resources */,
 				FBB111C02CAF6D6B006CA144 /* LaunchScreen.storyboard in Resources */,
 				FBB111BD2CAF6D6B006CA144 /* Assets.xcassets in Resources */,
 				FBB111BB2CAF6D6A006CA144 /* Main.storyboard in Resources */,
